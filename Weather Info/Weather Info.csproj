@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Weather_Info</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>weather_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="weather_banner.jpg" />
+    <None Remove="weather_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="weather_banner.jpg" />
+    <Resource Include="weather_icon.png" />
+  </ItemGroup>
+
+</Project>

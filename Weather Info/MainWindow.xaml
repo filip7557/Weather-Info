@@ -1,0 +1,72 @@
+﻿<Window x:Name="Weather_Info" x:Class="Weather_Info.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Weather_Info"
+        mc:Ignorable="d"
+        Title="Weather Info" Height="276" Width="630" Icon="/weather_icon.png" ResizeMode="NoResize">
+    <Grid x:Name="mainGrid" RenderTransformOrigin="0.634,0.545" Height="559" VerticalAlignment="Top">
+        <Image x:Name="banner" HorizontalAlignment="Left" VerticalAlignment="Top" Source="/weather_banner.jpg"/>
+        <TextBox x:Name="city" HorizontalAlignment="Left" Margin="214,212,0,0" Text="Enter city name" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="19" GotFocus="city_GotFocus" KeyDown="city_KeyDown"/>
+        <Button x:Name="searchTown" Content="Search" HorizontalAlignment="Left" Margin="351,212,0,0" VerticalAlignment="Top" Height="19" Click="SearchTown_Click" Visibility="Visible" Background="#FF1391D3" BorderBrush="#FF1391D3" Foreground="White" BorderThickness="0,1,0,1" RenderTransformOrigin="0.5,0.5">
+            <Button.Style>
+                <Style/>
+            </Button.Style>
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.OpacityMask>
+                <RadialGradientBrush>
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF1391D3" Offset="1"/>
+                </RadialGradientBrush>
+            </Button.OpacityMask>
+        </Button>
+        <Label x:Name="temperature" Content="" HorizontalAlignment="Left" Margin="192,321,0,0" VerticalAlignment="Top" Height="39">
+            <Label.Style>
+                <Style/>
+            </Label.Style>
+        </Label>
+        <Label x:Name="feelsLike" Content="" HorizontalAlignment="Left" Margin="193,342,0,0" VerticalAlignment="Top" Height="38"/>
+        <Label x:Name="humidity" Content="" HorizontalAlignment="Left" Margin="359,346,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.561,2.773" Height="39"/>
+        <Label x:Name="windSpeed" Content="" HorizontalAlignment="Left" Margin="359,324,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.993,-0.38" Height="39"/>
+        <Label x:Name="description" Content="" HorizontalAlignment="Left" Margin="192,300,0,0" VerticalAlignment="Top" Height="39"/>
+        <Image x:Name="weatherIcon" HorizontalAlignment="Left" Height="65" Margin="81,300,0,0" VerticalAlignment="Top" Width="65"/>
+        <Label x:Name="currentWeatherText" Content="" HorizontalAlignment="Left" Margin="193,266,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="_1stDay" Content="" HorizontalAlignment="Left" Margin="50,378,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="_1stDayImage" HorizontalAlignment="Left" Height="25" Margin="65,404,0,0" VerticalAlignment="Top" Width="25"/>
+        <Label x:Name="_1stDayTemperature" Content="" HorizontalAlignment="Left" Margin="34,452,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_1stDayFeelsLike" Content="" HorizontalAlignment="Left" Margin="34,474,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_1stDayWindSpeed" Content="" HorizontalAlignment="Left" Margin="34,496,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_1stDayHumidity" Content="" HorizontalAlignment="Left" Margin="34,518,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_2ndDay" Content="" HorizontalAlignment="Left" Margin="180,378,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="_2ndDayImage" HorizontalAlignment="Left" Height="25" Margin="199,404,0,0" VerticalAlignment="Top" Width="25"/>
+        <Label x:Name="_2ndDayTemperature" Content="" HorizontalAlignment="Left" Margin="167,452,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_2ndDayFeelsLike" Content="" HorizontalAlignment="Left" Margin="167,474,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_2ndDayWindSpeed" Content="" HorizontalAlignment="Left" Margin="167,496,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_2ndDayHumidity" Content="" HorizontalAlignment="Left" Margin="167,518,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_3rdDay" Content="" HorizontalAlignment="Left" Margin="344,378,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="_3rdDayImage" HorizontalAlignment="Left" Height="25" Margin="359,404,0,0" VerticalAlignment="Top" Width="25"/>
+        <Label x:Name="_3rdDayTemperature" Content="" HorizontalAlignment="Left" Margin="326,452,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_3rdDayFeelsLike" Content="" HorizontalAlignment="Left" Margin="325,474,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_3rdDayWindSpeed" Content="" HorizontalAlignment="Left" Margin="325,496,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_3rdDayHumidity" Content="" HorizontalAlignment="Left" Margin="325,518,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_4thDay" Content="" HorizontalAlignment="Left" Margin="495,378,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="_4thDayImage" HorizontalAlignment="Left" Height="25" Margin="502,404,0,0" VerticalAlignment="Top" Width="25"/>
+        <Label x:Name="_4thDayTemperature" Content="" HorizontalAlignment="Left" Margin="471,452,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_4thDayFeelsLike" Content="" HorizontalAlignment="Left" Margin="471,474,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_4thDayWindSpeed" Content="" HorizontalAlignment="Left" Margin="471,496,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_4thDayHumidity" Content="" HorizontalAlignment="Left" Margin="471,518,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_1stDayDesc" HorizontalAlignment="Left" Margin="58,432,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_2ndDayDesc" Content="" HorizontalAlignment="Left" Margin="185,432,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_3rdDayDesc" Content="" HorizontalAlignment="Left" Margin="338,432,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_4thDayDesc" Content="" HorizontalAlignment="Left" Margin="490,432,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label x:Name="_1stDayDesc_Copy1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="9" Margin="54,432,0,0"/>
+    </Grid>
+</Window>

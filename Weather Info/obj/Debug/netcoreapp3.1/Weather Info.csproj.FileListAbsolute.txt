@@ -1,0 +1,22 @@
+D:\Programiranje\OOP\HW5\Weather Info\bin\Debug\netcoreapp3.1\Weather Info.exe
+D:\Programiranje\OOP\HW5\Weather Info\bin\Debug\netcoreapp3.1\Weather Info.deps.json
+D:\Programiranje\OOP\HW5\Weather Info\bin\Debug\netcoreapp3.1\Weather Info.runtimeconfig.json
+D:\Programiranje\OOP\HW5\Weather Info\bin\Debug\netcoreapp3.1\Weather Info.runtimeconfig.dev.json
+D:\Programiranje\OOP\HW5\Weather Info\bin\Debug\netcoreapp3.1\Weather Info.dll
+D:\Programiranje\OOP\HW5\Weather Info\bin\Debug\netcoreapp3.1\Weather Info.pdb
+D:\Programiranje\OOP\HW5\Weather Info\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Programiranje\OOP\HW5\Weather Info\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Programiranje\OOP\HW5\Weather Info\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Programiranje\OOP\HW5\Weather Info\obj\Debug\netcoreapp3.1\Weather Info_MarkupCompile.cache
+D:\Programiranje\OOP\HW5\Weather Info\obj\Debug\netcoreapp3.1\Weather Info_MarkupCompile.lref
+D:\Programiranje\OOP\HW5\Weather Info\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\Programiranje\OOP\HW5\Weather Info\obj\Debug\netcoreapp3.1\Weather Info.g.resources
+D:\Programiranje\OOP\HW5\Weather Info\obj\Debug\netcoreapp3.1\Weather Info.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programiranje\OOP\HW5\Weather Info\obj\Debug\netcoreapp3.1\Weather Info.AssemblyInfoInputs.cache
+D:\Programiranje\OOP\HW5\Weather Info\obj\Debug\netcoreapp3.1\Weather Info.AssemblyInfo.cs
+D:\Programiranje\OOP\HW5\Weather Info\obj\Debug\netcoreapp3.1\Weather Info.csproj.CoreCompileInputs.cache
+D:\Programiranje\OOP\HW5\Weather Info\obj\Debug\netcoreapp3.1\Weather Info.csproj.CopyComplete
+D:\Programiranje\OOP\HW5\Weather Info\obj\Debug\netcoreapp3.1\Weather Info.dll
+D:\Programiranje\OOP\HW5\Weather Info\obj\Debug\netcoreapp3.1\Weather Info.pdb
+D:\Programiranje\OOP\HW5\Weather Info\obj\Debug\netcoreapp3.1\Weather Info.genruntimeconfig.cache
+D:\Programiranje\OOP\HW5\Weather Info\obj\Debug\netcoreapp3.1\Weather Info.csproj.AssemblyReference.cache
